@@ -8,6 +8,7 @@ import {
   Stats,
   Clients,
   Testimonials,
+  Billing,
 } from "./components/index.js";
 import styles from "./style.js";
 
@@ -30,6 +31,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
+          <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
