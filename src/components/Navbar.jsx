@@ -1,4 +1,4 @@
-import { logo, menu, close } from "../assets/index.js";
+import { logo, menu, close, RupNet } from "../assets/index.js";
 import { navLinks } from "../constants/index.js";
 import { useState } from "react";
 
